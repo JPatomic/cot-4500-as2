@@ -11,4 +11,4 @@ Made in python
 
 Run the following in the directory the files were installed
 
-**python .\assignment_2.py**
+**python assignment_2.py**
