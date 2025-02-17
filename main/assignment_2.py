@@ -54,8 +54,6 @@ def newtonfwdcoeffs(x_points, y_points):
             else:
                 h = x_points[j] - x_points[j-3]
                 fwd_diff[j][i] = fwd_diff[j][i] / h
-               
-    print(fwd_diff)
 
     # Returns the polynomial coefficients
     coeffs = [fwd_diff[1,1], fwd_diff[2,2], fwd_diff[3,3]]
